@@ -1,0 +1,46 @@
+.RecentWorks__container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 150px 0;
+    max-width: 1440px;
+    background: none;
+}
+
+.RecentWorks__container h1 {
+    background: none;
+    font-size: 56px;
+}
+
+.RecentWorks__span_works {
+    color: #00ADB5;
+}
+
+.RecentWorks__buttons {
+    background: none;
+    margin-top: 20px
+}
+
+.RecentWorks__option_button {
+    padding: 10px 32px;
+    color: white;
+    border-radius: 24px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 12px;
+    border: 1px solid #343434;
+    background: rgba(57, 62, 70, 0.5);
+}
+
+.RecentWorks__option_button:hover {
+    border: none;
+    background: #00ADB5;
+    color: white;
+}
+
+.RecentWorks__projects_gallery {
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

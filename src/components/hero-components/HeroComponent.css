@@ -36,6 +36,12 @@
     margin: auto 12px;
 }
 
+.HeroComponent__info_buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
 .HeroComponent__info_buttons button:hover {
     cursor: pointer;
 }
@@ -46,6 +52,10 @@
 
 .HeroComponent__second_btn {
     background: rgba(57, 62, 70, 0.75);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .HeroComponent__read_more_button {
@@ -66,3 +76,13 @@
     margin: auto;
     background: transparent;
 }
+
+ .material-symbols-outlined {
+    background: transparent;
+     margin-left: 2px;
+     font-variation-settings:
+             'FILL' 0,
+             'wght' 400,
+             'GRAD' 0,
+             'opsz' 24
+ }

@@ -1,14 +1,18 @@
+// Styling
 import './AboutComponent.css'
 
+// Images
 import AboutImg from '../../assets/project-assets/about-img.png';
 import Background1 from '../../assets/project-assets/lightbulb.png'
-import Background2 from '../../assets/project-assets/Vector 141.png'
+import Background2 from '../../assets/project-assets/musicimg.png'
 import Background3 from '../../assets/project-assets/Vector 186.png'
 
 
 const AboutComponent = () => {
     return (
         <div className="AboutComponent__container">
+
+            {/* Info container with 2 background elements */}
             <div className="AboutComponent__info_container">
                 {/* music img */}
                 <img className="AboutComponent__background_element2" src={Background2} alt=""/>
@@ -30,11 +34,14 @@ const AboutComponent = () => {
                     repellat repellendus voluptas.<br/> <br/>
                 </p>
             </div>
+
+            {/* Img container */}
             <div className="AboutComponent__img_container">
                 <img src={AboutImg} alt=""/>
+                {/* arrow img */}
+                <img className="AboutComponent__background_element3" src={Background3} alt=""/>
             </div>
-            {/* arrow img */}
-            <img className="AboutComponent__background_element3" src={Background3} alt=""/>
+
         </div>
     )
 }

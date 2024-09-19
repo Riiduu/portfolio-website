@@ -17,7 +17,8 @@ const HeroComponent = (props: any) => {
                         {/* Hire me button */}
                         <button className="HeroComponent__first_btn">Hire me</button>
                         {/* Download CV button */}
-                        <button className="HeroComponent__second_btn">Download CV</button>
+                        <button className="HeroComponent__second_btn">Download CV <span
+                            className="material-symbols-outlined">download</span></button>
                     </div>
                 </div>
 

@@ -1,10 +1,10 @@
 .AboutComponent__container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 150px auto;
     position: relative;
+    margin: 150px auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .AboutComponent__info_container {
@@ -15,6 +15,10 @@
 
 .AboutComponent__info_container h1 {
     font-size: 64px;
+}
+
+.AboutComponent__info_container p {
+    margin-top: 20px;
 }
 
 .AboutComponent__info_span {

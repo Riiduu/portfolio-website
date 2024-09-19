@@ -1,6 +1,18 @@
-.App__container {
+html { scroll-behavior: smooth; }
+
+
+.section-container {
     margin: auto;
     color: white;
     max-width: 1440px;
     font-family: "Poppins", sans-serif;
+}
+
+.full-width {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    background: url("./assets/project-assets/recent-works-bg.png");
+}
+
+#recent-works {
 }

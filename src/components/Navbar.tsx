@@ -11,7 +11,7 @@ const Navbar = (props: any) => {
             {/* Nav options */}
             <div className="navbar__nav_options">
                 <a href={props.aboutNav}>About Me</a>
-                <a href="#">Recent Works</a>
+                <a href={props.recentNav}>Recent Works</a>
                 <a href="#">Contact</a>
             </div>
         </div>
