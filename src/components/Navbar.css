@@ -5,6 +5,10 @@
     padding: 20px 0;
 }
 
+.navbar__logo h1 {
+    font-family: "Oswald", sans-serif;
+}
+
 .navbar__nav_options {
     display: flex;
     flex-direction: row;

@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App__container">
         <Navbar />
-        <HeroComponent />
+        <HeroComponent readMoreButton="#"/>
     </div>
   )
 }
