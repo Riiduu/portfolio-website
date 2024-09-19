@@ -2,7 +2,7 @@ import './HeroComponent.css'
 
 import ArrowDown from '../../assets/project-assets/Vector 187.png';
 import HeroImg from '../../assets/project-assets/hero-img.png';
-import ButtonDown from '../../assets/project-assets/button-down.png';
+import ButtonDown from '../../assets/project-assets/ButtonDown.png';
 
 const HeroComponent = (props: any) => {
     return (
@@ -24,7 +24,7 @@ const HeroComponent = (props: any) => {
             </div>
 
             <a className="HeroComponent__read_more_button" href={props.readMoreButton}>
-                <img src={ButtonDown} alt=""/>
+                <img className="HeroComponent__readmore" src={ButtonDown} alt=""/>
             </a>
 
             {/* image container*/}

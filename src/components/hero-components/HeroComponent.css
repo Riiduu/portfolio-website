@@ -51,7 +51,7 @@
 .HeroComponent__read_more_button {
     width: 96px;
     height: 96px;
-    background-color: rgba(57, 62, 70, 1);
+    background:  rgba(57, 62, 70, 1);
     position: absolute;
     display: flex;
     justify-content: center;
@@ -62,6 +62,7 @@
     cursor: pointer;
 }
 
-.HeroComponent__read_more_button img {
+.HeroComponent__readmore {
     margin: auto;
+    background: transparent;
 }
