@@ -1,6 +1,6 @@
 import './Navbar.css'
 
-const Navbar = () => {
+const Navbar = (props: any) => {
     return (
         <div className="navbar__container">
             {/* Logo */}
@@ -10,7 +10,7 @@ const Navbar = () => {
 
             {/* Nav options */}
             <div className="navbar__nav_options">
-                <a href="#">About Me</a>
+                <a href={props.aboutNav}>About Me</a>
                 <a href="#">Recent Works</a>
                 <a href="#">Contact</a>
             </div>
