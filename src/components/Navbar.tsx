@@ -12,7 +12,7 @@ const Navbar = (props: any) => {
             <div className="navbar__nav_options">
                 <a href={props.aboutNav}>About Me</a>
                 <a href={props.recentNav}>Recent Works</a>
-                <a href="#">Contact</a>
+                <a href={props.contactNav}>Contact</a>
             </div>
         </div>
     )
