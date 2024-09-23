@@ -9,10 +9,10 @@ function App() {
   return (
       <div className="App__container">
           <section className="section-container">
-              <Navbar aboutNav="#about" recentNav="#recent-works" contactNav="#contact"/>
+              <Navbar aboutNav="#about" recentNav="#recent-works" contactNav="#contact" hireNav="#contact"/>
           </section>
           <section className="section-container full-screen">
-              <HeroComponent readMoreButton="#about"/>
+              <HeroComponent readMoreButton="#about" hireNav="#contact"/>
           </section>
           <section id="about" className="section-container full-screen">
               <AboutComponent/>

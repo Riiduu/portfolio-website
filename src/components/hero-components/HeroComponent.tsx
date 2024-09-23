@@ -3,8 +3,14 @@ import './HeroComponent.css'
 import ArrowDown from '../../assets/project-assets/Vector 187.png';
 import HeroImg from '../../assets/project-assets/hero-img.png';
 import ButtonDown from '../../assets/project-assets/ButtonDown.png';
+//import {useEffect} from "react";
 
 const HeroComponent = (props: any) => {
+    const routeToContact = () => {
+        window.location.href = props.hireNav;
+        console.log("yeye")
+    }
+
     return (
         <div className="HeroComponent__container">
             {/* I use arch container*/}
@@ -15,7 +21,7 @@ const HeroComponent = (props: any) => {
                     {/* Hire me & CV buttons */}
                     <div className="HeroComponent__info_buttons">
                         {/* Hire me button */}
-                        <button className="HeroComponent__first_btn">Hire me</button>
+                        <button onClick={routeToContact} className="HeroComponent__first_btn">Hire me</button>
                         {/* Download CV button */}
                         <button className="HeroComponent__second_btn">Download CV <span
                             className="material-symbols-outlined">download</span></button>

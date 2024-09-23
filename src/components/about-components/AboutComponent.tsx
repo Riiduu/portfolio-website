@@ -21,17 +21,12 @@ const AboutComponent = () => {
 
                 <h1>About <span className="AboutComponent__info_span">me</span></h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet atque beatae consequatur, culpa
-                    dolores ducimus ex incidunt iure maiores maxime, necessitatibus quam quia rem sint sit tempora vel
-                    voluptas! Animi. <br/> <br/>
+                    My name is Kristians Jelinsks, a 19-year-old developer with over 5 years of experience in web, mobile, and game development. I've been building solo projects, primarily in web dev, with a strong focus on quality, innovation, and usability. I’m highly skilled in adapting to new technologies and frameworks to stay current. <br/><br/>
 
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi inventore, minima modi nihil nulla
-                    omnis perferendis. Aliquid expedita nobis optio pariatur porro quam ratione sed vel. Aliquid fugiat
-                    laboriosam perspiciatis.<br/> <br/>
+                    Outside of coding, I play various musical instruments and enjoy diving into classic literature—the older, the better. Along with technical expertise, I bring a solid background in business, giving me a broader view to balance both development and strategic goals. <br/><br/>
 
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid corporis iusto quos suscipit
-                    tenetur? Ab, adipisci aliquam animi autem consequuntur culpa eum hic minima molestiae mollitia quod
-                    repellat repellendus voluptas.<br/> <br/>
+
+                    I am passionate about delivering efficient, scalable solutions and thrive in both independent and collaborative environments, ensuring that each project aligns with long-term objectives.
                 </p>
             </div>
 
