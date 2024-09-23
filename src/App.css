@@ -8,16 +8,11 @@ html { scroll-behavior: smooth; }
     font-family: "Poppins", sans-serif;
 }
 
-.full-screen {
-    height: 90vh;
-}
-
-#about {
-    display: flex;
-}
-
 .full-width {
     color: white;
     font-family: "Poppins", sans-serif;
     background: url("./assets/project-assets/recent-works-bg.png");
+}
+
+#recent-works {
 }
