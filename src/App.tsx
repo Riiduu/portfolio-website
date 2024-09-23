@@ -21,7 +21,7 @@ function App() {
               <RecentWorksComponent/>
           </section>
           <section id="contact" className="section-container full-screen">
-              <ContactComponent />
+              <ContactComponent/>
           </section>
 
       </div>
