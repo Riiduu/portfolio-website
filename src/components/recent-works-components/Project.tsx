@@ -7,6 +7,7 @@ const Project = (props: any) => {
                 <img src={props.project_img}
                      alt=""/>
                 <h3>{props.project_name}</h3>
+                <h4 style={{background: props.background}}>Games</h4>
             </div>
         </a>
     )

@@ -11,6 +11,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    text-decoration: none;
 }
 
 .Project__project_details {
@@ -28,12 +30,23 @@
 
 .Project__project_details img {
     background: none;
+    border-radius: 15px;
 }
 
 .Project__project_details h3 {
     background: none;
     margin-top: 5px;
     color: white;
-    text-decoration: none
-;
+    text-decoration: none;
+}
+
+.Project__project_details h4 {
+    background: none;
+    margin-top: 5px;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 0 10px;
+    width: fit-content;
+    align-self: center;
 }

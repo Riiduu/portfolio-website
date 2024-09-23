@@ -17,28 +17,6 @@
     color: #00ADB5;
 }
 
-.RecentWorks__buttons {
-    background: none;
-    margin-top: 20px
-}
-
-.RecentWorks__option_button {
-    padding: 10px 32px;
-    color: white;
-    border-radius: 24px;
-    font-size: 18px;
-    font-weight: bold;
-    margin-right: 12px;
-    border: 1px solid #343434;
-    background: rgba(57, 62, 70, 0.5);
-}
-
-.RecentWorks__option_button:hover {
-    border: none;
-    background: #00ADB5;
-    color: white;
-}
-
 .RecentWorks__projects_gallery {
     background: transparent;
     display: flex;
