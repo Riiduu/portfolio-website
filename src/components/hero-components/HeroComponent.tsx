@@ -8,7 +8,10 @@ import ButtonDown from '../../assets/project-assets/ButtonDown.png';
 const HeroComponent = (props: any) => {
     const routeToContact = () => {
         window.location.href = props.hireNav;
-        console.log("yeye")
+    }
+
+    const routeToCV = () => {
+        window.open("https://1drv.ms/w/s!AnMti7tFV1DuiuNbly_VUCkVUPkysA?e=QzRgmL", "_blank");
     }
 
     return (
@@ -23,8 +26,8 @@ const HeroComponent = (props: any) => {
                         {/* Hire me button */}
                         <button onClick={routeToContact} className="HeroComponent__first_btn">Hire me</button>
                         {/* Download CV button */}
-                        <button className="HeroComponent__second_btn">Download CV <span
-                            className="material-symbols-outlined">download</span></button>
+                        <button onClick={routeToCV} className="HeroComponent__second_btn">View CV <span
+                            className="material-symbols-outlined">open_in_new</span></button>
                     </div>
                 </div>
 
