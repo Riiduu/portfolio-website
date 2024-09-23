@@ -11,16 +11,16 @@ function App() {
           <section className="section-container">
               <Navbar aboutNav="#about" recentNav="#recent-works" contactNav="#contact"/>
           </section>
-          <section className="section-container">
+          <section className="section-container full-screen">
               <HeroComponent readMoreButton="#about"/>
           </section>
-          <section id="about" className="section-container">
+          <section id="about" className="section-container full-screen">
               <AboutComponent/>
           </section>
-          <section id="recent-works" className="full-width">
+          <section id="recent-works" className="full-width full-screen">
               <RecentWorksComponent/>
           </section>
-          <section id="contact" className="section-container">
+          <section id="contact" className="section-container full-screen">
               <ContactComponent />
           </section>
 
