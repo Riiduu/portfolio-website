@@ -11,7 +11,7 @@ function App() {
           <section className="section-container">
               <Navbar aboutNav="#about" recentNav="#recent-works" contactNav="#contact" hireNav="#contact"/>
           </section>
-          <section className="section-container full-screen">
+          <section id="hero" className="section-container full-screen">
               <HeroComponent readMoreButton="#about" hireNav="#contact"/>
           </section>
           <section id="about" className="section-container full-screen">

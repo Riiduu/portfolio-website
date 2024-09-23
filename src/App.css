@@ -19,6 +19,10 @@ html { scroll-behavior: smooth; }
     margin: auto;
 }
 
+#hero {
+    height: 80vh;
+}
+
 #about {
     display: flex;
 }

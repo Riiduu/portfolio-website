@@ -1,8 +1,13 @@
 import './RecentWorksComponent.css'
 
+//import { collection, query, getDocs } from "firebase/firestore";
+import db  from '../../../firebase.ts';
+
 import Project from './Project'
 
 const RecentWorksComponent = () => {
+    console.log(db)
+
     return (
         <div className="RecentWorks__container">
             <h1>My Recent <span className="RecentWorks__span_works">Works</span></h1>

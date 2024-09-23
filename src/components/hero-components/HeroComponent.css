@@ -1,16 +1,15 @@
 .HeroComponent__container {
-    margin-top: 150px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     position: relative;
+    margin-top: 150px;
 }
 
 .HeroComponent__container_left_box {
     display: flex;
     flex-direction: row;
-
 }
 
 .HeroComponent__container_left_box img {
