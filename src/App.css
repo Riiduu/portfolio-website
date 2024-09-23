@@ -14,5 +14,14 @@ html { scroll-behavior: smooth; }
     background: url("./assets/project-assets/recent-works-bg.png");
 }
 
+.full-screen {
+    height: 90vh;
+    margin: auto;
+}
+
+#about {
+    display: flex;
+}
+
 #recent-works {
 }

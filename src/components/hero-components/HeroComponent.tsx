@@ -11,7 +11,7 @@ const HeroComponent = (props: any) => {
             <div className="HeroComponent__container_left_box">
                 <img src={ArrowDown} height="250px" alt=""/>
                 <div className="HeroComponent__left_box_info">
-                    <h1>I USE<br/><span className="HeroComponent__i_use_arch_btw">ARCH, btw</span></h1>
+                    <h1>I DON'T USE<br/><span className="HeroComponent__i_use_arch_btw">ARCH, btw</span></h1>
                     {/* Hire me & CV buttons */}
                     <div className="HeroComponent__info_buttons">
                         {/* Hire me button */}
