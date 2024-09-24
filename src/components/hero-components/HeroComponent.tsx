@@ -1,5 +1,3 @@
-import './HeroComponent.css'
-
 import ArrowDown from '../../assets/project-assets/Vector 187.png';
 import HeroImg from '../../assets/project-assets/hero-img.png';
 import ButtonDown from '../../assets/project-assets/ButtonDown.png';
@@ -15,32 +13,31 @@ const HeroComponent = (props: any) => {
     }
 
     return (
-        <div className="HeroComponent__container">
+        <div className="h-96 my-60 flex flex-row justify-center md:justify-between relative flex-wrap">
             {/* I use arch container*/}
-            <div className="HeroComponent__container_left_box">
-                <img src={ArrowDown} height="250px" alt=""/>
-                <div className="HeroComponent__left_box_info">
-                    <h1>I DON'T USE<br/><span className="HeroComponent__i_use_arch_btw">ARCH, btw</span></h1>
+            <div className="flex flex-row mb-40 my-auto z-10 overflow-visible">
+                <img className="mt-8 h-40 hidden lg:block" src={ArrowDown} alt=""/>
+                <div className="">
+                    <h1 className="text-7xl md:text-6xl font-bold text-white">I DON'T USE<br/><span className="text-[var(--color-3)]">ARCH, btw</span></h1>
                     {/* Hire me & CV buttons */}
-                    <div className="HeroComponent__info_buttons">
+                    <div className="mt-8 space-x-5 flex flex-row justify-center md:justify-start">
                         {/* Hire me button */}
-                        <button onClick={routeToContact} className="HeroComponent__first_btn">Hire me</button>
+                        <button className="text-white bg-[var(--color-3)] py-2 px-6 rounded-3xl" onClick={routeToContact}>Hire me</button>
                         {/* Download CV button */}
-                        <button onClick={routeToCV} className="HeroComponent__second_btn">View CV <span
-                            className="material-symbols-outlined">open_in_new</span></button>
+                        <button onClick={routeToCV} className="text-white bg-[#393E46] py-2 px-6 rounded-3xl flex flex-row justify-center">View CV <span
+                            className="ml-2 material-symbols-outlined">open_in_new</span></button>
                     </div>
                 </div>
 
             </div>
 
-            <a className="HeroComponent__read_more_button" href={props.readMoreButton}>
-                <img className="HeroComponent__readmore" src={ButtonDown} alt=""/>
+            <a className="absolute bottom-10 md:right-3/4 p-5 bg-[#393E46] hidden lg:block" href={props.readMoreButton}>
+                <img className="h-6 w-6" src={ButtonDown} alt=""/>
             </a>
 
             {/* image container*/}
-            <div className="HeroComponent__hero_img_container">
-                <img className="HeroComponent__hero_img" src={HeroImg} alt=""/>
-
+            <div className="z-0 absolute w-11/12 md:w-auto md:-translate-x-0 md:right-0 top-1/2 transform -translate-y-1/2 left-1/2 -translate-x-1/2">
+                <img className="opacity-30 md:opacity-100 m-auto" src={HeroImg} alt=""/>
             </div>
         </div>
     )

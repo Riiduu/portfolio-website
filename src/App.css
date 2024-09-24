@@ -1,5 +1,12 @@
-html { scroll-behavior: smooth; }
+/*
+html {
 
+    scroll-behavior: smooth;
+    --color-1: #222831;
+    --color-2: #393E46;
+    --color-3: #00ADB5;
+    --color-4: #EEEEEE;
+}
 
 .section-container {
     margin: auto;
@@ -15,19 +22,16 @@ html { scroll-behavior: smooth; }
 }
 
 .full-screen {
-    height: 100vh;
+    min-height: 100vh;
     margin: auto;
 }
 
 #hero {
-    height: 80vh;
+    min-height: 80vh;
 }
 
 #about {
     display: flex;
-}
-
-#recent-works {
 }
 
 @media only screen and (max-width: 1520px) {
@@ -46,3 +50,4 @@ html { scroll-behavior: smooth; }
         max-width: calc(100vw - 50px);
     }
 }
+ */
