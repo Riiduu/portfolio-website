@@ -38,8 +38,8 @@ const HeroComponent = (props: any) => {
             </a>
 
             {/* image container*/}
-            <div>
-                <img src={HeroImg} alt=""/>
+            <div className="HeroComponent__hero_img_container">
+                <img className="HeroComponent__hero_img" src={HeroImg} alt=""/>
 
             </div>
         </div>

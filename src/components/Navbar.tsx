@@ -13,6 +13,9 @@ const Navbar = (props: any) => {
                 <a href={props.aboutNav}>About Me</a>
                 <a href={props.recentNav}>Recent Works</a>
                 <a href={props.contactNav}>Contact</a>
+                <span className="material-symbols-outlined">
+                    menu
+                </span>
             </div>
         </div>
     )

@@ -1,7 +1,6 @@
 .HeroComponent__container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
     position: relative;
     margin-top: 150px;
@@ -10,10 +9,11 @@
 .HeroComponent__container_left_box {
     display: flex;
     flex-direction: row;
+    overflow: auto;
 }
 
 .HeroComponent__container_left_box img {
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .HeroComponent__left_box_info {
@@ -85,3 +85,84 @@
              'GRAD' 0,
              'opsz' 24
  }
+
+@media only screen and (max-width: 1200px) {
+    .HeroComponent__container {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .HeroComponent__container_left_box {
+        z-index: 1;
+    }
+
+    .HeroComponent__container_left_box_info {
+        font-size: 2rem;
+    }
+
+    .HeroComponent__read_more_button {
+        display: none;
+    }
+
+    .HeroComponent__hero_img_container {
+        z-index: 0;
+        position: absolute;
+        right: 0;
+        top: 300px;
+    }
+
+    .HeroComponent__hero_img {
+        opacity: 50%;
+        width: 90%;
+        min-width: 300px
+    }
+
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .HeroComponent__hero_img_container {
+    }
+
+    .HeroComponent__hero_img {
+        position: absolute;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .HeroComponent__container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .HeroComponent__container_left_box img {
+        display: none;
+    }
+
+    .HeroComponent__hero_img {
+        position: absolute;
+        left: 50%;
+        top: 500px;
+        transform: translate(-50%, -50%);
+
+        max-width: 500px;
+    }
+
+    .HeroComponent__info_buttons button {
+        font-size: 1rem;
+        padding: 12px 20px;
+        margin: auto 5px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .HeroComponent__hero_img_container {
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .HeroComponent__hero_img {
+        width: 95%;
+    }
+}

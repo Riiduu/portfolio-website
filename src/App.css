@@ -29,3 +29,20 @@ html { scroll-behavior: smooth; }
 
 #recent-works {
 }
+
+@media only screen and (max-width: 1520px) {
+    .section-container {
+        max-width: calc(100vw - 100px);
+    }
+
+    .full-screen {
+        height: auto;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 1520px) {
+    .section-container {
+        max-width: calc(100vw - 50px);
+    }
+}
