@@ -7,7 +7,7 @@ import Background3 from '../../assets/project-assets/Vector 186.png'
 
 const AboutComponent = () => {
     return (
-        <div className="my-20 flex flex-col justify-center md:flex-row md:justify-between relative mx-4 md:mx-4 lg:mx-8 xl:mx-0 text-white">
+        <div className="my-auto h-auto flex flex-col justify-center md:flex-row md:justify-between relative mx-4 md:mx-4 lg:mx-8 xl:mx-0 text-white">
 
             {/* Info container with 2 background elements */}
             <div className="relative md:w-1/2">

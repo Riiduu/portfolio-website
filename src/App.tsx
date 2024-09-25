@@ -7,7 +7,7 @@ import ContactComponent from "./components/contact-components/ContactComponent.t
 function App() {
   return (
       <div className="">
-          <section className="max-w-screen-xl m-auto h-auto">
+          <section className="max-w-screen-xl m-auto">
               <Navbar aboutNav="#about" recentNav="#recent-works" contactNav="#contact" hireNav="#contact"/>
           </section>
           <section id="hero" className="max-w-screen-xl m-auto">
@@ -16,7 +16,7 @@ function App() {
           <section id="about" className="max-w-screen-xl m-auto">
               <AboutComponent/>
           </section>
-          <section id="recent-works" className="">
+          <section id="recent-works" className="bg-[url('./assets/project-assets/recent-works-bg.png')] bg-cover bg-center">
               <RecentWorksComponent/>
           </section>
           <section id="contact" className="max-w-screen-xl m-auto">
