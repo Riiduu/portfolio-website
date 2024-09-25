@@ -1,7 +1,7 @@
 const Navbar = (props: any) => {
     return (
         <nav
-            className="block py-10 ">
+            className="block py-10 mx-4 md:mx-0">
             <div className="flex flex-wrap justify-between">
                 <a href="/"
                    className="mr-4 block cursor-pointer py-auto text-2xl sm:text-3xl md:text-4xl text-white font-semibold">
