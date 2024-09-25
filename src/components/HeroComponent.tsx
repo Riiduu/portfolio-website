@@ -1,6 +1,6 @@
-import ArrowDown from '../../assets/project-assets/Vector 187.png';
-import HeroImg from '../../assets/project-assets/hero-img.png';
-import ButtonDown from '../../assets/project-assets/ButtonDown.png';
+import ArrowDown from '../assets/project-assets/Vector 187.png';
+import HeroImg from '../assets/project-assets/hero-img.png';
+import ButtonDown from '../assets/project-assets/ButtonDown.png';
 //import {useEffect} from "react";
 
 const HeroComponent = (props: any) => {
