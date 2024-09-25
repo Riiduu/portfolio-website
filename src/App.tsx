@@ -10,16 +10,16 @@ function App() {
           <section className="max-w-screen-xl m-auto">
               <Navbar aboutNav="#about" recentNav="#recent-works" contactNav="#contact" hireNav="#contact"/>
           </section>
-          <section id="hero" className="max-w-screen-xl m-auto">
+          <section id="hero" className="max-w-screen-xl mx-auto">
               <HeroComponent readMoreButton="#about" hireNav="#contact"/>
           </section>
-          <section id="about" className="max-w-screen-xl m-auto">
+          <section id="about" className="max-w-screen-xl mx-auto">
               <AboutComponent/>
           </section>
-          <section id="recent-works" className="bg-[url('./assets/project-assets/recent-works-bg.png')] bg-cover bg-center">
+          <section id="recent-works" className="bg-[url('./assets/project-assets/recent-works-bg.png')] bg-cover bg-center mx-auto my-40 py-20">
               <RecentWorksComponent/>
           </section>
-          <section id="contact" className="max-w-screen-xl m-auto">
+          <section id="contact" className="max-w-screen-xl mx-auto my-40 py-28">
               <ContactComponent/>
           </section>
 
