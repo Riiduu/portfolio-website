@@ -1,31 +1,32 @@
-import './App.css'
-import HeroComponent from "./components/hero-components/HeroComponent.tsx";
+import HeroComponent from "./components/HeroComponent.tsx";
 import Navbar from './components/Navbar.tsx'
-import AboutComponent from "./components/about-components/AboutComponent.tsx";
-import RecentWorksComponent from "./components/recent-works-components/RecentWorksComponent.tsx";
-import ContactComponent from "./components/contact-components/ContactComponent.tsx";
+import AboutComponent from "./components/AboutComponent.tsx";
+import RecentWorksComponent from "./components/RecentWorksComponent.tsx";
+import ContactComponent from "./components/ContactComponent.tsx";
+
 
 function App() {
-  return (
-      <div className="App__container">
-          <section className="section-container">
-              <Navbar aboutNav="#about" recentNav="#recent-works" contactNav="#contact" hireNav="#contact"/>
-          </section>
-          <section id="hero" className="section-container full-screen">
-              <HeroComponent readMoreButton="#about" hireNav="#contact"/>
-          </section>
-          <section id="about" className="section-container full-screen">
-              <AboutComponent/>
-          </section>
-          <section id="recent-works" className="full-width full-screen">
-              <RecentWorksComponent/>
-          </section>
-          <section id="contact" className="section-container full-screen">
-              <ContactComponent/>
-          </section>
+    return (
+        <div className="">
+            <section className="max-w-screen-xl m-auto">
+                <Navbar aboutNav="#about" recentNav="#recent-works" contactNav="#contact" hireNav="#contact"/>
+            </section>
+            <section id="hero" className="max-w-screen-xl mx-auto">
+                <HeroComponent readMoreButton="#about" hireNav="#contact"/>
+            </section>
+            <section id="about" className="max-w-screen-xl mx-auto">
+                <AboutComponent/>
+            </section>
+            <section id="recent-works"
+                     className="bg-[url('./assets/project-assets/recent-works-bg.png')] bg-cover bg-center mx-auto my-40 py-20">
+                <RecentWorksComponent/>
+            </section>
+            <section id="contact" className="max-w-screen-xl mx-auto my-40 py-28">
+                <ContactComponent/>
+            </section>
 
-      </div>
-  )
+        </div>
+    )
 }
 
 export default App

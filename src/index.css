@@ -1,6 +1,19 @@
-* {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: #222831;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+
+    --color-1: #222831;
+    --color-2: #393E46;
+    --color-3: #00ADB5;
+    --color-4: #EEEEEE;
 }
