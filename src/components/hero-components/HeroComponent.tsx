@@ -13,7 +13,7 @@ const HeroComponent = (props: any) => {
     }
 
     return (
-        <div className="h-96 my-60 flex flex-row justify-center md:justify-between relative flex-wrap mx-4 md:mx-0">
+        <div className="h-96 my-60 flex flex-row justify-center md:justify-between relative flex-wrap mx-4 md:mx-4 lg:mx-8 xl:mx-0">
             {/* I use arch container*/}
             <div className="flex flex-row mb-40 my-auto z-10 overflow-visible">
                 <img className="mt-8 h-40 hidden lg:block" src={ArrowDown} alt=""/>
