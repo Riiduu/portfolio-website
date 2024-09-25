@@ -4,6 +4,7 @@ import AboutComponent from "./components/AboutComponent.tsx";
 import RecentWorksComponent from "./components/RecentWorksComponent.tsx";
 import ContactComponent from "./components/ContactComponent.tsx";
 
+
 function App() {
     return (
         <div className="">
