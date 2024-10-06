@@ -23,14 +23,14 @@ const HeroComponent = (props: any) => {
                     <h1 className="text-7xl md:text-6xl text-center md:text-left font-bold text-white">I DON'T
                         USE<br/><span className="text-[var(--color-3)]">ARCH, btw</span></h1>
                     {/* Hire me & CV buttons */}
-                    <div className="mt-8 space-x-5 flex flex-row justify-center md:justify-start">
+                    <div className="mt-8 space-x-2 md:space-x-5 flex flex-row justify-center md:justify-start">
                         {/* Hire me button */}
-                        <button className="text-white bg-[var(--color-3)] py-2 px-10 rounded-3xl"
+                        <button className="text-white bg-[var(--color-3)] py-2 px-5 md:px-10 rounded-3xl"
                                 onClick={routeToContact}>Hire me
                         </button>
                         {/* Download CV button */}
                         <button onClick={routeToCV}
-                                className="text-white bg-[#393E46] py-2 px-10 rounded-3xl flex flex-row justify-center">View
+                                className="text-white bg-[#393E46] py-2 px-5 md:px-10 rounded-3xl flex flex-row justify-center">View
                             CV <span
                                 className="ml-2 material-symbols-outlined">open_in_new</span></button>
                     </div>
