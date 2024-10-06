@@ -8,7 +8,7 @@ import Background3 from '../assets/project-assets/Vector 186.png'
 const AboutComponent = () => {
     return (
         <div
-            className="my-auto h-auto flex flex-col justify-center md:flex-row md:justify-between relative py-32 md:py-40 mx-4 md:mx-4 lg:mx-8 xl:mx-0 text-white">
+            className="min-h-screen flex flex-col justify-center items-center md:flex-row md:justify-between relative py-32 md:py-40 mx-4 md:mx-4 lg:mx-8 xl:mx-0 text-white">
 
             {/* Info container with 2 background elements */}
             <div className="relative md:w-1/2">
@@ -35,7 +35,8 @@ const AboutComponent = () => {
             </div>
 
             {/* arrow img */}
-            <img className="hidden lg:block lg:absolute lg:bottom-0 rotate-[145deg] left-96" src={Background3} alt=""/>
+            <img className="hidden lg:block lg:absolute lg:bottom-28 rotate-[145deg] left-96" src={Background3}
+                 alt=""/>
 
             {/* Img container */}
             <div className="my-5 md:my-0 md:w-1/2 h-auto flex justify-center items-center">

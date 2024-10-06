@@ -16,11 +16,11 @@ function App() {
                      style={{height: 'calc(100vh - 200px)'}}>
                 <HeroComponent readMoreButton="#about" hireNav="#contact"/>
             </section>
-            <section id="about" className="max-w-screen-xl mx-auto">
+            <section id="about" className="flex flex-col max-w-screen-xl mx-auto my-auto justify-center">
                 <AboutComponent/>
             </section>
             <section id="recent-works"
-                     className="bg-[url('./assets/project-assets/recent-works-bg.png')] bg-cover bg-center mx-auto">
+                     className="bg-[url('./assets/project-assets/recent-works-bg.png')] bg-cover bg-centerflex flex-col my-auto justify-start">
                 <RecentWorksComponent/>
             </section>
             <section id="contact" className="max-w-screen-xl mx-auto my-40 py-28">
