@@ -11,7 +11,9 @@ function App() {
             <section className="max-w-screen-xl m-auto">
                 <Navbar aboutNav="#about" recentNav="#recent-works" contactNav="#contact" hireNav="#contact"/>
             </section>
-            <section id="hero" className="max-w-screen-xl mx-auto">
+            <section id="hero"
+                     className="flex flex-col max-w-screen-xl mx-auto justify-center"
+                     style={{height: 'calc(100vh - 100px)'}}>
                 <HeroComponent readMoreButton="#about" hireNav="#contact"/>
             </section>
             <section id="about" className="max-w-screen-xl mx-auto">
